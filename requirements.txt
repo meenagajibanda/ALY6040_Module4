@@ -2,4 +2,3 @@ streamlit
 pandas
 plotly
 numpy
-components.kpi_cards
