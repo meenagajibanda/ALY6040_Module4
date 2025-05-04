@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/meena/OneDrive/Documents/ALY6040/ecommerce_sales_data.csv", parse_dates=["Order_Date"])
+    df = pd.read_csv("ecommerce_sales_data.csv", parse_dates=["Order_Date"])
     return df
 
 df = load_data()
